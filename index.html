@@ -2,71 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Reops GTPS - Host Tools</title>
   <style>
     body {
-      background: #0d1117;
-      color: #c9d1d9;
-      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      padding: 30px 20px;
       text-align: center;
-      padding: 30px;
     }
-    h1 {
-      font-size: 38px;
-      color: #58a6ff;
-      margin-bottom: 10px;
+    img.logo {
+      width: 280px;
+      margin-bottom: 20px;
     }
-    p.subtitle {
-      font-size: 16px;
-      color: #8b949e;
-      margin-bottom: 30px;
-    }
-    .btn {
-      display: inline-block;
-      margin: 10px;
+    .button {
+      display: block;
+      margin: 15px auto;
       padding: 14px 24px;
-      border-radius: 8px;
-      font-size: 16px;
-      font-weight: 600;
-      text-decoration: none;
+      width: 90%;
+      max-width: 320px;
+      background-color: #1e1e1e;
       color: white;
-      transition: background 0.3s ease;
-    }
-    .vhost   { background-color: #00c853; }
-    .android { background-color: #ff5252; }
-    .ios     { background-color: #5c6bc0; }
-    .wa      { background-color: #25d366; }
-    .btn:hover { opacity: 0.85; }
-    .host-box {
-      margin: 30px auto;
-      padding: 20px;
-      background: #161b22;
       border-radius: 10px;
-      font-family: monospace;
-      text-align: left;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s ease;
+      border: 2px solid #00ffe0;
+    }
+    .button:hover {
+      background-color: #00ffe0;
+      color: #000;
+    }
+    .host-box {
+      background: #1e1e1e;
+      margin-top: 40px;
+      padding: 20px;
+      border-radius: 10px;
       max-width: 500px;
-      line-height: 1.5;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: monospace;
+      font-size: 15px;
+      line-height: 1.6;
     }
     footer {
       font-size: 12px;
-      color: #555;
-      margin-top: 40px;
+      color: #666;
+      margin-top: 50px;
     }
   </style>
 </head>
 <body>
 
-  <h1>REOPS GTPS</h1>
-  <p class="subtitle">by SaekyRyo — Host Tools Page</p>
+  <!-- LOGO -->
+  <img src="logo.png" alt="Reops Logo" class="logo">
 
-  <div>
-    <a href="https://www.mediafire.com/file/h64vnz3gdwndc10/Reops.txt/file" class="btn vhost" target="_blank">📄 Download VHOST (.txt)</a>
-    <a href="https://growsoft.cc/android.txt" class="btn android" target="_blank">🚀 Android Host (PowerTunnel)</a>
-    <a href="https://growsoft.cc/ios.txt" class="btn ios" target="_blank">🍎 iOS/macOS Host (Surge)</a>
-    <a href="https://chat.whatsapp.com/Ft4xRZPuHMF2oP0WSOhjxu?mode=ac_t" class="btn wa" target="_blank">💬 WhatsApp Group</a>
-  </div>
+  <!-- BUTTONS -->
+  <a href="https://www.mediafire.com/file/h64vnz3gdwndc10/Reops.txt/file" class="button" target="_blank">📄 Download VHOST (.txt)</a>
+  <a href="https://growsoft.cc/android.txt" class="button" target="_blank">📱 Android Host (PowerTunnel)</a>
+  <a href="https://growsoft.cc/ios.txt" class="button" target="_blank">🍎 iOS/macOS Host (Surge 5)</a>
+  <a href="https://chat.whatsapp.com/Ft4xRZPuHMF2oP0WSOhjxu?mode=ac_t" class="button" target="_blank">💬 Join WhatsApp Group</a>
 
+  <!-- WINDOWS VHOST -->
   <div class="host-box">
     91.134.85.13 growtopia1.com<br>
     91.134.85.13 growtopia2.com<br>
@@ -75,7 +73,7 @@
   </div>
 
   <footer>
-    &copy; 2025 Reops GTPS — All rights reserved
+    &copy; 2025 Reops GTPS. All rights reserved.
   </footer>
 
 </body>
