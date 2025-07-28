@@ -13,15 +13,17 @@
       text-align: center;
     }
     img.logo {
-      width: 280px;
-      margin-bottom: 20px;
+      width: 300px;
+      margin-bottom: 30px;
     }
     .button {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin: 15px auto;
-      padding: 14px 24px;
+      padding: 14px 20px;
       width: 90%;
-      max-width: 320px;
+      max-width: 340px;
       background-color: #1e1e1e;
       color: white;
       border-radius: 10px;
@@ -33,6 +35,11 @@
     .button:hover {
       background-color: #00ffe0;
       color: #000;
+    }
+    .button img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
     }
     .host-box {
       background: #1e1e1e;
@@ -55,16 +62,27 @@
 </head>
 <body>
 
-  <!-- LOGO -->
-  <img src="logo.png" alt="Reops Logo" class="logo">
+  <!-- LOGO UTAMA -->
+  <img src="logo.png" alt="Reops Logo" class="logo" />
 
-  <!-- BUTTONS -->
-  <a href="https://www.mediafire.com/file/h64vnz3gdwndc10/Reops.txt/file" class="button" target="_blank">📄 Download VHOST (.txt)</a>
-  <a href="https://growsoft.cc/android.txt" class="button" target="_blank">📱 Android Host (PowerTunnel)</a>
-  <a href="https://growsoft.cc/ios.txt" class="button" target="_blank">🍎 iOS/macOS Host (Surge 5)</a>
-  <a href="https://chat.whatsapp.com/Ft4xRZPuHMF2oP0WSOhjxu?mode=ac_t" class="button" target="_blank">💬 Join WhatsApp Group</a>
+  <!-- TOMBOL DENGAN IKON -->
+  <a href="https://www.mediafire.com/file/h64vnz3gdwndc10/Reops.txt/file" class="button" target="_blank">
+    <img src="vhost.png" alt="VHOST Icon">Download VHOST (.txt)
+  </a>
 
-  <!-- WINDOWS VHOST -->
+  <a href="https://growsoft.cc/android.txt" class="button" target="_blank">
+    <img src="power.png" alt="Android Icon">Android Host (PowerTunnel)
+  </a>
+
+  <a href="https://growsoft.cc/ios.txt" class="button" target="_blank">
+    <img src="power.png" alt="iOS Icon">iOS/macOS Host (Surge 5)
+  </a>
+
+  <a href="https://chat.whatsapp.com/Ft4xRZPuHMF2oP0WSOhjxu?mode=ac_t" class="button" target="_blank">
+    <img src="whatsup.png" alt="WhatsApp Icon">Join WhatsApp Group
+  </a>
+
+  <!-- IP UNTUK WINDOWS -->
   <div class="host-box">
     91.134.85.13 growtopia1.com<br>
     91.134.85.13 growtopia2.com<br>
